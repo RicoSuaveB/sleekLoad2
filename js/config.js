@@ -78,24 +78,16 @@ var l_bgDarkening = 50;
 var l_music = true;
 
 /*Display actual song's name?*/
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/aduio_1_.ogg", name: "Drake - Sneakin"},
-	{youtube: "9kwK7Fj1vPc", name: "Post Malone (feat. Justin Bieber) - Deja Vu"},
-	{youtube: "yzTuBuRdAyA", name: "The Weeknd - The Hills"},
-	{ogg: "songs/04_Reminder.ogg", name: "The Weeknd - Reminder"},
-        {ogg: "songs/10_Six_Feet_Under.ogg", name: "The Weeknd - Six Feet Under"},
-        {ogg: "songs/14_Ordinary_Life.ogg", name: "The Weeknd - Ordinary Life" },
-	{ogg: "songs/Drake-Fake-Love-CDQ.ogg", name: "Drake - Fake Love"},
-	{ogg: "songs/Post_Malone_Congratulations.ogg", name: "Post Malone ft.Quavo - Congratulations"},
-	{ogg: "songs/The_Weeknd_-_Starboy_official_ft_Daft_Punk[Save2mp.ogg", name: "The Weeknd - Starboy"}
+	{youtube: "mN7LW0Y00kE", name: "Dean Martin - Let it Snow"},
 ];
 
 /*Random music order?*/
-var l_musicRandom = true;
+var l_musicRandom = false;
 
 /*Music volume
 Choose a value between 0 and 100*/
@@ -106,8 +98,6 @@ var l_messagesEnabled = false;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Enjoy the server",
-"Thanks for joining us!",
 ];
 
 /*Random message order?*/
