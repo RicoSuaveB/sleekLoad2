@@ -50,7 +50,7 @@ var l_background = "";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"https://newevolutiondesigns.com/images/freebies/futuristic-city-wallpaper-44.jpg",
+	"https://newevolutiondesigns.com/images/freebies/futuristic-city-wallpaper-44.jpg
 ];
 
 /*Random background images order?*/
@@ -83,6 +83,7 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
+	{ogg: "songs/aduio_1_.ogg", name: "Drake - Sneakin"},
 	{youtube: "9kwK7Fj1vPc", name: "Post Malone (feat. Justin Bieber) - Deja Vu"},
 	{youtube: "yzTuBuRdAyA", name: "The Weeknd - The Hills"},
 	{ogg: "songs/04_Reminder.ogg", name: "The Weeknd - Reminder"},
@@ -90,19 +91,18 @@ var l_musicPlaylist = [
         {ogg: "songs/14_Ordinary_Life.ogg", name: "The Weeknd - Ordinary Life" },
 	{ogg: "songs/Drake-Fake-Love-CDQ.ogg", name: "Drake - Fake Love"},
 	{ogg: "songs/Post_Malone_Congratulations.ogg", name: "Post Malone ft.Quavo - Congratulations"},
-	{ogg: "songs/The_Weeknd_-_Starboy_official_ft_Daft_Punk[Save2mp.ogg", name: "The Weeknd - Starboy"},
-	{ogg: "songs/aduio_1_.ogg", name: "Drake - Sneakin"},
+	{ogg: "songs/The_Weeknd_-_Starboy_official_ft_Daft_Punk[Save2mp.ogg", name: "The Weeknd - Starboy"}
 ];
 
 /*Random music order?*/
-var l_musicRandom = false;
+var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 35;
+var l_musicVolume = 30;
 
 /*Enable custom messages?*/
-var l_messagesEnabled = true;
+var l_messagesEnabled = false;
 
 /*Enter your custom messages below*/
 var l_messages = [
