@@ -83,9 +83,9 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/04_Reminder.ogg", name: "The Weeknd - The Hills"},
-    {ogg: "songs/10_Six_Feet_Under.ogg", name: "The Weeknd - Six Feet Under"},
-    {ogg: "songs/14_Ordinary_Life.ogg", name: "The Weeknd - Ordinary Life" },
+	{ogg: "songs/04_Reminder.ogg", name: "The Weeknd - Reminder"},
+        {ogg: "songs/10_Six_Feet_Under.ogg", name: "The Weeknd - Six Feet Under"},
+        {ogg: "songs/14_Ordinary_Life.ogg", name: "The Weeknd - Ordinary Life" },
 	{ogg: "songs/Drake-Fake-Love-CDQ.ogg", name: "Drake - Fake Love"},
 	{ogg: "songs/Post_Malone Deja Vu.ogg", name: "Post Malone - Deja Vu"},
 	{ogg: "songs/Post_Malone_Congratulations.ogg", name: "Post Malone ft.Quavo - Congratulations"},
