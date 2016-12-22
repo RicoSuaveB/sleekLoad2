@@ -83,18 +83,19 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
+	{youtube: "9kwK7Fj1vPc", name: "Post Malone (feat. Justin Bieber) - Deja Vu"},
+	{youtube: "yzTuBuRdAyA", name: "The Weeknd - The Hills"},
 	{ogg: "songs/04_Reminder.ogg", name: "The Weeknd - Reminder"},
         {ogg: "songs/10_Six_Feet_Under.ogg", name: "The Weeknd - Six Feet Under"},
         {ogg: "songs/14_Ordinary_Life.ogg", name: "The Weeknd - Ordinary Life" },
 	{ogg: "songs/Drake-Fake-Love-CDQ.ogg", name: "Drake - Fake Love"},
-	{ogg: "songs/Post_Malone Deja Vu.ogg", name: "Post Malone - Deja Vu"},
 	{ogg: "songs/Post_Malone_Congratulations.ogg", name: "Post Malone ft.Quavo - Congratulations"},
 	{ogg: "songs/The_Weeknd_-_Starboy_official_ft_Daft_Punk[Save2mp.ogg", name: "The Weeknd - Starboy"},
-	{ogg: "songs/The_Weeknd_-_The_Hills_320_kbps_.ogg", name: "The Weeknd - The Hills"},
+	{ogg: "songs/aduio_1_.ogg", name: "Drake - Sneakin"},
 ];
 
 /*Random music order?*/
-var l_musicRandom = true;
+var l_musicRandom = false;
 
 /*Music volume
 Choose a value between 0 and 100*/
