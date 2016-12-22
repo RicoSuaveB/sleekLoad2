@@ -50,7 +50,7 @@ var l_background = "";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"https://newevolutiondesigns.com/images/freebies/futuristic-city-wallpaper-44.jpg
+	"https://newevolutiondesigns.com/images/freebies/futuristic-city-wallpaper-44.jpg"
 ];
 
 /*Random background images order?*/
@@ -83,7 +83,7 @@ var l_musicDisplay = false;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "mN7LW0Y00kE", name: "Dean Martin - Let it Snow"},
+	{youtube: "mN7LW0Y00kE", name: "Dean Martin - Let it Snow"}
 ];
 
 /*Random music order?*/
